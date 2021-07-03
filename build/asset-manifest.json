@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.75769bb8.chunk.css",
+    "main.js": "/static/js/main.86c43ed9.chunk.js",
+    "main.js.map": "/static/js/main.86c43ed9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.506cd619.js",
+    "runtime-main.js.map": "/static/js/runtime-main.506cd619.js.map",
+    "static/js/2.ead190b6.chunk.js": "/static/js/2.ead190b6.chunk.js",
+    "static/js/2.ead190b6.chunk.js.map": "/static/js/2.ead190b6.chunk.js.map",
+    "static/js/3.4a4a4edd.chunk.js": "/static/js/3.4a4a4edd.chunk.js",
+    "static/js/3.4a4a4edd.chunk.js.map": "/static/js/3.4a4a4edd.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.75769bb8.chunk.css.map": "/static/css/main.75769bb8.chunk.css.map",
+    "static/js/2.ead190b6.chunk.js.LICENSE.txt": "/static/js/2.ead190b6.chunk.js.LICENSE.txt",
+    "static/media/1.307129ef.jpg": "/static/media/1.307129ef.jpg",
+    "static/media/2.397452f0.jpg": "/static/media/2.397452f0.jpg",
+    "static/media/3.cb6bba62.jpg": "/static/media/3.cb6bba62.jpg",
+    "static/media/5.fce4f4d3.jpg": "/static/media/5.fce4f4d3.jpg",
+    "static/media/6.9de1b4ef.jpg": "/static/media/6.9de1b4ef.jpg",
+    "static/media/WelcomePage.css": "/static/media/backgrounds.b211fc06.jpg",
+    "static/media/star_wars.01297bb7.png": "/static/media/star_wars.01297bb7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.506cd619.js",
+    "static/js/2.ead190b6.chunk.js",
+    "static/css/main.75769bb8.chunk.css",
+    "static/js/main.86c43ed9.chunk.js"
+  ]
+}
