@@ -11,7 +11,6 @@ function App() {
       <Router>
         <WelcomePage/>
         <Switch>
-        {/* <Route path='/Welcomepage' component={ WelcomePage } /> */}
           <Route path='/HomePage' component={ Main } />
           <Route path='/Characters' component={ Characters } />
         </Switch>
