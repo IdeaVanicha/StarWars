@@ -1,0 +1,65 @@
+.cPage {
+  background-image: url("../images/backgrounds.jpg");
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  z-index: 6;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#loading {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#spinner {
+  display: block;
+  color: white;
+}
+
+.nameDisplay {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 60%;
+  width: 60%;
+  background-color: white;
+  position: relative;
+  color: black;
+  align-items: left;
+  line-height: 3vh;
+  padding: 1vw;
+}
+
+#backHome {
+  width: 60%;
+  margin-top: 2vh;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+#backBut {
+  background-color: goldenrod;
+  width: 40%;
+}
+#backBut:hover {
+  background-color: rgba(0, 0, 0, 0.486);
+  box-shadow: 0px 3px 5px goldenrod;
+  color: goldenrod;
+}
+
+.nameTitle {
+  background-color: white;
+  padding: 1vw;
+  height: 2%;
+  width: 60%;
+  font-weight: bold;
+  margin-top: 20px;
+}

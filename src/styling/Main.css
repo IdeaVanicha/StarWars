@@ -1,0 +1,135 @@
+.main {
+  background-image: url("../images/backgrounds.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  z-index: 4;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#swTitle {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+#swTitleDiv {
+  display: block;
+  margin: 10px;
+  min-height: 100px;
+  width: 200px;
+}
+
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.epContainer {
+  width: 50%;
+  min-width: 750px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.epBox {
+  height: 18rem;
+  width: 45%;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+
+@media only screen and (max-width: 750px) {
+  .epContainer {
+    width: 100%;
+    min-width: 300px;
+  }
+  .epBox {
+    width: 70%;
+  }
+
+  .main {
+    height: fit-content;
+  }
+}
+
+#synopsis {
+  font-size: 0.6rem;
+  overflow: scroll;
+  height: 100%;
+  width: 60%;
+}
+
+#epHead {
+  display: flex;
+  font-weight: bold;
+  flex-direction: column;
+  height: 10%;
+  width: 90%;
+}
+
+#epTitle {
+  margin-top: 0;
+  height: 20%;
+  font-size: 14px;
+}
+
+#epSummary {
+  display: flex;
+  height: 60%;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+}
+
+#view {
+  border-radius: 500px;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  border: 1px solid goldenrod;
+  font-size: 0.75rem;
+  text-align: center;
+  width: 80%;
+  padding: 7.5px;
+}
+
+#bottom-button {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#view:hover {
+  background-color: goldenrod;
+  box-shadow: 0px 1px 5px goldenrod;
+  color: white;
+}
+
+#poster-img {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#moviePoster {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
